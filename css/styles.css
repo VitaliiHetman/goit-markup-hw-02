@@ -4,6 +4,7 @@
   --text: #434455;
   --white-background: #ffffff;
   --light: #f4f4fd;
+  --pressed-state: #404BBF; 
 }
 .list {
   list-style: none;
@@ -11,22 +12,23 @@
 .link {
   text-decoration: none;
 }
-
 .body {
   font-family: "Roboto", "sans-serif";
   letter-spacing: 2%;
-}
+} 
 
 /* =====================================Header==================================== */
 .logo-left {
   font-family: "Raleway", "sans-serif";
+  font-weight: 800;
   font-size: 18px;
-  line-height: calc(21 / 18);
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primary-brand);
 }
 .logo-right {
   font-family: "Raleway", "sans-serif";
+  font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
@@ -43,6 +45,16 @@
   color: var(--navy-blue);
 }
 
+.menu-link:active,
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--pressed-state);
+}
+
+.page-nav{
+
+}
+
 .contakt {
   font-style: normal;
   font-weight: 400;
@@ -53,7 +65,9 @@
 }
 
 /* ================================Hero============================ */
-
+.hero-background{
+    background: #2E2F42;
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -63,7 +77,7 @@
   color: var(--white-background);
 }
 
-.buttom {
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -71,6 +85,21 @@
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-background);
+  background-color:var(--primary-brand);
+}
+
+.button:hover,
+.button:focus{
+background-color: var(--pressed-state);
+}
+.title-second{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
 }
 
 .title-thirt{
@@ -104,3 +133,20 @@ color: var(--navy-blue);
   letter-spacing: 0.02em;
   color: var(--light);
 }
+
+
+
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+  }
+  
+  .button-portfolio:hover,
+  .button-portfolio:focus{
+  color: var(--white-background);
+  background-color: var(--pressed-state);}
