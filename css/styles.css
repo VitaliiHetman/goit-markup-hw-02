@@ -12,6 +12,7 @@
 .link {
   text-decoration: none;
 }
+
 .body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 2%;
@@ -46,7 +47,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--text);
 }
 
 .menu-link:active,
@@ -101,7 +102,7 @@
 .title-second {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -111,7 +112,7 @@
 .title-thirt {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -148,6 +149,7 @@
 }
 /* ================================Portfolio=========================================== */
 .button-portfolio {
+    font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -155,6 +157,8 @@
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
+  background-color: var(--light);
+  cursor: pointer;
 }
 
 .button-portfolio:hover,
