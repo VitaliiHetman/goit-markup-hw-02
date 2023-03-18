@@ -38,9 +38,7 @@
   letter-spacing: 0.03em;
   color: var(--navy-blue);
 }
-.menu-item{
-  color: var(--navy-blue);
-}
+
 
 .menu-link {
   font-weight: 500;
@@ -49,7 +47,9 @@
   letter-spacing: 0.02em;
   color: var(--text);
 }
-
+.menu-item{
+  color: var(--navy-blue);
+}
 .menu-link:active,
 .menu-link:hover,
 .menu-link:focus {
